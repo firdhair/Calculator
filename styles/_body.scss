@@ -1,0 +1,71 @@
+body {
+  min-height: 100vh;
+  background-color: #ebf5e2;
+}
+
+.container {
+  width: 40%;
+  margin: auto;
+  min-height: 70vh;
+  margin-bottom: 8rem;
+  margin-top: 8rem;
+  background-color: #fcf6e6;
+  //font-family: "Roboto", cursive;
+  //font-family: "Fjalla One", sans-serif;
+  font-family: "Staatliches", cursive;
+  color: #333;
+  border-radius: 2rem;
+  border: 0.2rem solid rgb(59, 59, 59);
+  box-shadow: 0.7rem 0.9rem 0rem 0.1rem rgb(59, 59, 59);
+}
+
+.display {
+  min-height: 20vh;
+  text-align: right;
+  .display-result {
+    padding-top: 3rem;
+    padding-right: 3rem;
+  }
+  .display-calc {
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+    color: #949388;
+  }
+}
+
+.calculation {
+  background-color: #b8f3d8;
+  border-radius: 2rem;
+  min-height: 80vh;
+  display: grid;
+  padding: 4.5rem 1rem 2.5rem 1rem;
+}
+
+.box {
+  padding: 2rem;
+  text-align: center;
+  background-color: #fcf6e6;
+  border: 0.2rem solid rgb(59, 59, 59);
+  border-radius: 1rem;
+  box-shadow: 0.3rem 0.3rem 0rem 0rem rgb(59, 59, 59);
+  margin: 1rem;
+  cursor: pointer;
+}
+
+#ca {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+#divident {
+  grid-column: 4/5;
+}
+
+#modulo {
+  grid-column: 3/4;
+}
+
+#no-zero {
+  grid-column: 1/3;
+  grid-row: 5/6;
+}
