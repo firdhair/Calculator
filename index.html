@@ -46,78 +46,74 @@
   <body>
     <div class="container">
       <div class="display">
-        <h2 class="display-result">600</h2>
-        <h5 class="display-calc">400+200</h5>
+        <h2 class="display-result"></h2>
+        <h5 class="display-calc"></h5>
       </div>
       <div class="calculation">
-        <div id="ca" class="box">
+        <div id="ca" class="clear-all box">
           <h3>CA</h3>
         </div>
-        <div id="clear" class="box">
+        <div id="clear" class="clear box">
           <h3>C</h3>
         </div>
-        <div id="modulo" class="box">
+        <div id="modulo" class="operate box" data-operate="%">
           <h3>%</h3>
         </div>
-        <div id="divident" class="box">
+        <div id="divident" class="operate box" data-operate="/">
           <h3>/</h3>
         </div>
 
-        <div id="no-7" class="box">
+        <div id="no-7" class="number box" data-number="7">
           <h3>7</h3>
         </div>
-        <div id="no-8" class="box">
+        <div id="no-8" class="number box" data-number="8">
           <h3>8</h3>
         </div>
-        <div id="no-9" class="box">
+        <div id="no-9" class="number box" data-number="9">
           <h3>9</h3>
         </div>
-        <div id="time" class="box">
+        <div id="time" class="operate box" data-operate="*">
           <h3>*</h3>
         </div>
 
-        <div id="no-4" class="box">
+        <div id="no-4" class="number box" data-number="4">
           <h3>4</h3>
         </div>
-        <div id="no-5" class="box">
+        <div id="no-5" class="number box" data-number="5">
           <h3>5</h3>
         </div>
-        <div id="no-6" class="box">
+        <div id="no-6" class="number box" data-number="6">
           <h3>6</h3>
         </div>
-        <div id="minus" class="box">
+        <div id="substract" class="operate box" data-operate="-">
           <h3>-</h3>
         </div>
 
-        <div id="no-1" class="box">
+        <div id="no-1" class="number box" data-number="1">
           <h3>1</h3>
         </div>
-        <div id="no-2" class="box">
+        <div id="no-2" class="number box" data-number="2">
           <h3>2</h3>
         </div>
-        <div id="no-3" class="box">
+        <div id="no-3" class="number box" data-number="3">
           <h3>3</h3>
         </div>
-        <div id="plus" class="box">
+        <div id="plus" class="operate box" data-operate="+">
           <h3>+</h3>
         </div>
 
-        <div id="no-zero" class="box">
+        <div id="result" class="result box">
+          <h3>RESULT</h3>
+        </div>
+        <div id="no-zero" class="number box" data-number="0">
           <h3>0</h3>
         </div>
         <div id="comma" class="box">
           <h3>,</h3>
         </div>
-        <div id="result" class="box">
-          <h3>RESULT</h3>
-        </div>
       </div>
     </div>
 
-    <script src="./">
-      //const keys = Array.from(document.querySelectorAll(".key"));
-
-      //keys.forEach((key) => key.addEventListener("mouseover", () => {}));
-    </script>
+    <script src="./calculator.js"></script>
   </body>
 </html>
